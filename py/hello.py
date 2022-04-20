@@ -1,4 +1,3 @@
-import requests
-
-r = requests.get("https://oracle.com")
-print(r.status_code)
+print(
+    "Hello world!, sit tight; this is going to be a heel of roler coster ride of life"
+)
