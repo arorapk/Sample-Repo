@@ -18,9 +18,10 @@ print(f"I also said :'{y}'")
 
 # using string.format () - one of many ways
 
-hilarious = Really?
+hilarious = "Really?"
 joke_evaluation = "Isn't that joke funny?!{}"
 print(joke_evaluation.format(hilarious))
 
 # using string.format () - another way of achieving the same output in one line
-print("Isn't that joke funny?!{}").format("Really")
+print("Isn't that joke funny?!{}".format("Really?"))
+print("Isn't that joke funny?!{}".format(hilarious))
